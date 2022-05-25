@@ -34,6 +34,7 @@ const util = require('util');
 const emailValidator = require('email-validator');
 
 const generateMarkdown = require('./utils/generateMarkdown');
+console.log('load application!');
 
 // array of questions for user
 const questions = [
@@ -97,7 +98,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project?',
-        choices: ["MIT", "ISC", "GNU GPLv3"],
+        choices: ["MIT", "ISC", "GNU GPLv3", "None"],
         validate: (value) => {
             if (value) { return true } else { return 'Please choose a license.' }
         },
@@ -136,7 +137,8 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then(function (data) {
-        writeToFile("README.md", generateMarkdown(data));
+        // console.log(data);
+        writeToFile('README.md', generateMarkdown(data));
     })
 };
 
