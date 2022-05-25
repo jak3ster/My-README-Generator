@@ -14,5 +14,14 @@
     "util": "^0.12.4"
   },
   "keywords": [],
-  "description": ""
+  "description": "![License Badge](https://img.shields.io/github/license/jak3ster/My-README-Generator)",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jak3ster/My-README-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jak3ster/My-README-Generator/issues"
+  },
+  "homepage": "https://github.com/jak3ster/My-README-Generator#readme"
 }
