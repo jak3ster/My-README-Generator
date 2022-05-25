@@ -34,7 +34,7 @@ A console application that dynamically generates a README.md file using inquirer
 * This is a sample [README](asset/demo/README.md) file for a project generated using this application
   ![Sample Readme.md File](asset/demo/my-readme-generator-demo.png)
   
-* [Video Demo](https://drive.google.com/file/d/10hTlREOiga3AXCRbU-zb5bBWPlnTN3Sf/view?usp=sharing)
+* [Video Demo](https://drive.google.com/file/d/1oVg7iEztIymnjsxM6tWezpePh1pqeRBD/view?usp=sharing)
 
 ## Features
 
